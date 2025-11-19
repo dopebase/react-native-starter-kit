@@ -11,8 +11,8 @@ export const login = (user) => ({
   user,
 });
 
-export const logout = (user) => ({
-  type: LOGIN,
+export const logout = () => ({
+  type: LOGOUT,
 });
 
 function auth(state = initialAuthState, action) {
