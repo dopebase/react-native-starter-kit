@@ -28,7 +28,6 @@ const LoginStack = () => (
       headerTitleAlign: 'center',
       headerTintColor: 'red',
       headerTitleStyle: styles.headerTitleStyle,
-      headerMode: 'float',
     }}>
     <Stack.Screen name="Welcome" component={WelcomeScreen} />
     <Stack.Screen name="Login" component={LoginScreen} />
@@ -43,7 +42,6 @@ const HomeStack = () => (
       headerTitleAlign: 'center',
       headerTintColor: 'red',
       headerTitleStyle: styles.headerTitleStyle,
-      headerMode: 'float',
     }}>
     <Stack.Screen
       name="Home"

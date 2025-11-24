@@ -9,7 +9,6 @@ import AppNavigator from './src/navigations/AppNavigation';
 
 const store = createStore(AppReducer, applyMiddleware(thunk));
 
-console.disableYellowBox = true;
 
 
 function StarterApp() {
